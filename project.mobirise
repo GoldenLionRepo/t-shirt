@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-02-14_0833",
+    "name": "SET Ts",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
@@ -25,9 +25,19 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.3",
     "siteFonts": [],
-    "uniqCompNum": 15,
+    "uniqCompNum": 16,
     "versionPublish": "4.9.3",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "",
+    "siteUrl": "",
+    "sitemapSwitcherAuto": "on",
+    "favicon": "@PROJECT_PATH@/assets/images/114559-128x128.png",
+    "noImageResize": "",
+    "cookiesAlert": "",
+    "gdpr": "",
+    "google-analytics": "",
+    "сanonical-url": ""
   },
   "pages": {
     "index.html": {
@@ -55,7 +65,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features6-6\">Rules</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#slider2-8\">Steps</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html#msg-box3-e\">Submit your Desighn</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://shop.goldenliononline.com\" target=\"_blank\">Golden Lion Store</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features6-6\">Rules</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features6-6\">Reward - $40 for Lunch</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#slider2-8\">Steps</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html#msg-box3-e\">Submit your Desighn</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://shop.goldenliononline.com\" target=\"_blank\">Golden Lion Store</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -172,12 +182,63 @@
           },
           "title": "Desighn Something Amazing",
           "text": "Get your artwork placed on a T-Shirt and Shown on Social Media.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#features6-6\" data-toolbar=\"-mbrBtnMove\">Rules</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#slider2-8\" data-toolbar=\"-mbrBtnMove\">Steps</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#msg-box3-e\" data-toolbar=\"-mbrBtnMove\">Submit</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#features6-6\" data-toolbar=\"-mbrBtnMove\">Rules</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#slider2-8\" data-toolbar=\"-mbrBtnMove\">Steps</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#slider2-8\" data-toolbar=\"-mbrBtnMove\">Reward - $40 For Lunch</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#msg-box3-e\" data-toolbar=\"-mbrBtnMove\">Submit</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "header2",
           "_anchor": "header2-1"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "showArrow": true,
+            "imageSize": 50,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1079.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.3
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1400x933.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "An Amazing Reward<br>$40 For Lunch",
+          "text": "Get $40 from us and use it to buy lunch. We give you a giftcard and you buy it for your lunch. Amazing and Delishious.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-f"
         },
         {
           "_styles": {
@@ -608,7 +669,7 @@
             }
           },
           "text1": "<strong>Address</strong><br>3540 Aero Ct<br>San Diego Ca<br>92123",
-          "text2": "<strong>Contacts</strong><br>Tirsh:&nbsp;<a href=\"mailto:trisha.domingo@sethigh.org\">trisha.domingo@sethigh.org</a><br>Reef: <a href=\"mailto:reef.keener@sethigh.org\">reef.keener@sethigh.org</a>",
+          "text2": "<strong>Contacts</strong><br>Trish:&nbsp;<a href=\"mailto:trisha.domingo@sethigh.org\">trisha.domingo@sethigh.org</a><br>Reef: <a href=\"mailto:reef.keener@sethigh.org\">reef.keener@sethigh.org</a>",
           "text3": "<strong>Links</strong><br><a href=\"https://www.goldenliononline.com\" target=\"_blank\">Golden Lions Website</a><br>\n<a class=\"text-primary\" href=\"http://sethigh.org\" target=\"_blank\">SET High Website</a><br>\n<a class=\"text-primary\" href=\"https://www.reefkeener.com\" target=\"_blank\">Reef J. Keener Co</a>",
           "_tags": [
             "Theme"
